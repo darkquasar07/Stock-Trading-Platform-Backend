@@ -127,7 +127,7 @@ import auth from "../middlewere/auth.middle.js";
 dotenv.config();
 const router = express.Router();
 
-const SECRET_KEY = process.env.JWT_SECRET || "johnnysins";
+const SECRET_KEY = process.env.JWT_SECRET || "secretkey";
 const GOOGLE_CLIENT_ID =
   process.env.GOOGLE_CLIENT_ID ||
   "613864712862-u8qe0vi59a3c28jlrv0obvenqtd4af94.apps.googleusercontent.com";
